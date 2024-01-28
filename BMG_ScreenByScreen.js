@@ -91,17 +91,20 @@
         };
     };
 
-    const _Game_Player_updateNonmoving = Game_Player.prototype.updateNonmoving;
-    Game_Player.prototype.updateNonmoving = function(wasMoving) {
-        _Game_Player_updateNonmoving.call(this, wasMoving);
+    // check if the player is at the edge of the map, and if so, move them to the next map
+    const originalGamePlayerUpdate = Game_Player.prototype.update;
+    Game_Player.prototype.update = function(sceneActive)
+    {
+        originalGamePlayerUpdate.call(this, sceneActive);
 
-        if($gameMap.isLoopHorizontal() || $gameMap.isLoopVertical())
+        if(!sceneActive)
             return;
 
         if(this.isMoving())
             return;
 
-        if(this._followers.areMoving())
+        // if the player is not at the edge of the map, do nothing
+        if(this.x !== 0 && this.x !== $gameMap.width() - 1 && this.y !== 0 && this.y !== $gameMap.height() - 1)
             return;
 
         const nextMap = getNextMap($gameMap, this.x, this.y);
@@ -111,4 +114,5 @@
 
         $gamePlayer.reserveTransfer(nextMap.mapId, nextMap.playerX, nextMap.playerY, this.direction(), 0);
     };
+
 })();
