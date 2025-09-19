@@ -8,6 +8,11 @@
  *
  * Compatibility:
  * * REPLACES Game_Action lukEffectRate
+ *
+ * Combine with BMG_LuckIncreasesGold to give LUK another use!
+ *
+ * All my plugins are free! :) You can support me on Patreon if you like:
+ * https://www.patreon.com/c/BenMakesGames
  */
 
 Game_Action.prototype.lukEffectRate = function(target) {

@@ -14,6 +14,9 @@
  * * ADDS Game_Player canPush
  * * ADDS Game_Player push
  *
+ * All my plugins are free! :) You can support me on Patreon if you like:
+ * https://www.patreon.com/c/BenMakesGames
+ *
  * @param switch
  * @type switch
  * @text Required Switch
@@ -26,6 +29,7 @@
  * @desc If the party does not have this item, pushability is disabled.
  * @default 0
  */
+
 (function() {
     // get parameters
     const params = PluginManager.parameters('BMG_PushableEvents');

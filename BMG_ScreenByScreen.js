@@ -26,6 +26,9 @@
  *
  * Compatibility:
  * * EXTENDS Game_Player.prototype.updateNonmoving
+ *
+ * All my plugins are free! :) You can support me on Patreon if you like:
+ * https://www.patreon.com/c/BenMakesGames
  */
 
 (function() {

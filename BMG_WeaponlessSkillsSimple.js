@@ -5,9 +5,16 @@
  *
  * @help That's it! Use the plugin parameters to set the skill.
  *
+ * Check out BMG_WeaponlessSkills for a more complex version of this plugin
+ * that allows different weaponless skills for different actors and/or
+ * classes.
+ *
  * Compatibility:
  * * ADDS Game_BattlerBase isEquippedWithAWeapon
  * * EXTENDS Game_BattlerBase addedSkills
+ *
+ * All my plugins are free! :) You can support me on Patreon if you like:
+ * https://www.patreon.com/c/BenMakesGames
  *
  * @param skillId
  * @text Skill

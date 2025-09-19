@@ -8,6 +8,9 @@
  * Compatibility:
  * * REPLACES Scene_Menu createGoldWindow
  * * REPLACES Scene_Menu goldWindowRect
+ *
+ * All my plugins are free! :) You can support me on Patreon if you like:
+ * https://www.patreon.com/c/BenMakesGames
  */
 
 Scene_Menu.prototype.createGoldWindow = function() {

@@ -36,6 +36,9 @@
  * * EXTENDS Game_Player moveStraight
  * * EXTENDS DataManager onLoad
  *
+ * All my plugins are free! :) You can support me on Patreon if you like:
+ * https://www.patreon.com/c/BenMakesGames
+ *
  * @param maxDanceLength
  * @type number
  * @text Maximum Dance Length
