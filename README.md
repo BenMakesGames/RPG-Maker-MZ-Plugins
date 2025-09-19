@@ -37,8 +37,10 @@ Add <pushable> to an event's notes to make it pushable by the player.
 
 Optionally, can configure an item or global switch to be required in order to push things.
 
-### BMG_ScreenByScreen ⭐⭐
-Allows players to automatically transition from map to map by moving to the edge of a map.
+### BMG_ScreenByScreen ⭐⭐⭐
+Allows players to automatically transition from map to map by moving to the edge of a map. (Think classic Zelda, MegaMan, or metroidvania game.)
+
+> 🧚‍♀️ **Hey, listen!** Make sure that the passibility of tiles matches on connected screen edges! If a player moves off one map, and ends up stuck in another, they might have no option but to quit and reload. If you have an autosave system, you could cause players to softlock their games! Test thoroughly!
 
 ### BMG_StatusEffectsIgnoreLuck 
 LUK no longer affects the chance of resisting status effects.
