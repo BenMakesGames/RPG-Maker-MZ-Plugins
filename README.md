@@ -10,7 +10,7 @@ The ⭐s represent the general interestingness, uniqueness, and/or complexity of
 
 #### BMG_CustomCritical
 Allows customization of the critical hit damage multiplier.
- 
+
 #### BMG_DanceInputs ⭐⭐
 Lets you create custom sequences of inputs to trigger common events and map events.
 
@@ -42,7 +42,12 @@ Optionally, can configure an item or global switch to be required in order to pu
 #### BMG_ScreenByScreen ⭐⭐
 Allows players to automatically transition from map to map by moving to the edge of a map.
 
+#### BMG_ShowMonsterHP ⭐
+
+Shows an HP bar above enemies if at least one of the party member has the `<ShowMonsterHP>` note (either on the party member directly, their class, or one of their equipped items).
+
 #### BMG_StatusEffectsIgnoreLuck 
+
 LUK no longer affects the chance of resisting status effects.
 
 #### BMG_WeaponlessSkills ⭐⭐
